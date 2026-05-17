@@ -21,7 +21,7 @@ The project utilizes the **Startup_Valuation_Dataset (2010–2024)** sourced fro
 - [x] **Phase 2:** Data Cleaning & Exploratory Data Analysis (EDA).
 - [x] **Phase 3:** Feature Engineering, EDA & Hypothesis Testing.
 - [x] **Phase 4:** Machine Learning Models & Interpretability Analysis.
-- [ ] **Phase 5:** Final Report.
+- [x] **Phase 5:** Final Report.
 
 ---
 
@@ -88,6 +88,35 @@ python -m nbconvert --to notebook --execute ml_models.ipynb --output ml_models.i
 
 ### Answer to Research Question
 > **Internal business fundamentals are more predictive of exit success than investor prestige**, but neither set of features provides strong predictive power in isolation — suggesting that startup exits depend heavily on factors beyond structured financial metrics.
+
+---
+
+## AI Tool Disclosure
+In accordance with the course's academic integrity policy, the use of AI tools in this project is disclosed below.
+
+**Tool used:** Claude (Anthropic) — accessed via claude.ai
+
+**How it was used:**
+- Debugging Python errors (e.g. fixing seaborn palette issues, pandas type errors)
+- Git command guidance (committing, tagging, pushing)
+- Code structure suggestions for the ML pipeline
+- Drafting and formatting the final report based on results I generated
+
+**Example prompts used:**
+- *"I am getting this error in my seaborn boxplot: ValueError: The palette dictionary is missing keys. How do I fix it?"*
+- *"Write me a Python function that computes an investor prestige score based on their historical exit rate in the dataset"*
+- *"How do I handle class imbalance in XGBoost? My target variable has a 5.8:1 ratio"*
+- *"I ran logistic regression, random forest and XGBoost and all got ROC-AUC near 0.50. What does this mean in the context of my research question?"*
+- *"Help me write the findings section of my report based on these hypothesis test results and feature importance plots"*
+- *"What git commands do I need to create and push a tag called milestone1?"*
+
+**What was my own work:**
+- Research question and hypothesis design — motivated by my personal experience as a startup founder
+- All methodological decisions (model selection, feature choices, hypothesis tests)
+- All code was executed and verified locally on my own machine
+- Interpretation of findings and connection to real-world startup dynamics
+
+Claude was used as a coding and writing assistant. All intellectual decisions, research direction, and interpretation of results are my own.
 
 ---
 
